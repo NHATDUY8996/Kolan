@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+	--color-primary1: #2E8232;
+	--color-primary2: rgba(86,231,22,1);
+	--color-primary3: #C0DC8F;
+	--color-pink: #fff8f5;
+	--color-border: #dddddd;
+	--color-white: white;
+  --color-white1: rgba(255,248,245,0.7);;
+	--color-black: #000000;
+	--color-grey: #f2f2f2;
+	--color-brown: #a87e72;
+	--color-orange: #D4B300;
+  --color-yellow: #FBF100;
+	--color-blue: #00acf4;
+	--color-red: #e00;
+	--color-btn: #f58220;
+	--color-input: #2b2c2c;
+	--color-hoverbtn: #98de22;
+	--bg-pink: #fff8f5;
+	--bg-input: #dddddd;
+	--bg-boxshadow: rgba(0, 0, 0, 0.2);
+	--bg-boxshadow2: rgba(0, 0, 0, 0.4);
+	--bg-boxshadow3: rgba(0, 0, 0, 0.8);
+	--box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+	font-size: 1rem;
+	font-weight: 400;
+	 line-height: 1.6;
+	 background-color: #e8face;
+	 overflow-x: hidden;
+	 font-family: 'Roboto', sans-serif;
+}
+.dF{
+  display: flex;
+}
+.pRl{
+  position: relative;
+}
+.pAs{
+  position: absolute;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+button{
+  border: none;
+  outline: none;
+}
